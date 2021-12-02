@@ -1,0 +1,616 @@
+body {
+  margin: 0;
+}
+
+.container {
+  overflow: hidden;
+  width: 100vw;
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  position: relative;
+  background-color: black;
+  -webkit-transition: 3s;
+  transition: 3s;
+}
+
+.container .helicopter {
+  position: absolute;
+  bottom: 100px;
+  right: 300px;
+}
+
+.container .helicopter .helicopter-body {
+  width: 70px;
+  height: 50px;
+  background-color: yellow;
+  border-radius: 50px;
+  position: relative;
+}
+
+.container .helicopter .helicopter-body .helicopter-top {
+  width: 5px;
+  height: 10px;
+  background-color: yellow;
+  position: absolute;
+  top: -10px;
+  left: 32px;
+}
+
+.container .helicopter .helicopter-body .helicopter-per {
+  width: 100px;
+  height: 5px;
+  background-color: yellow;
+  position: absolute;
+  top: -15px;
+  left: -14px;
+}
+
+.container .helicopter .helicopter-body .helicopter-end {
+  width: 100px;
+  height: 30px;
+  background-color: yellow;
+  position: absolute;
+  top: 10px;
+  right: -95px;
+  -webkit-clip-path: polygon(0 1%, 145% 64%, 23% 90%, 0% 100%);
+          clip-path: polygon(0 1%, 145% 64%, 23% 90%, 0% 100%);
+}
+
+.container .helicopter .helicopter-body .helicopter-end-dayag {
+  width: 12px;
+  height: 22px;
+  background-color: yellow;
+  position: absolute;
+  top: 16px;
+  left: 154px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.container .helicopter .helicopter-body .helicopter-end-dayag i {
+  font-size: 10px;
+  color: #000;
+}
+
+.container .helicopter .helicopter-body .helicoper-end-per {
+  width: 50px;
+  height: 5px;
+  background-color: red;
+  position: absolute;
+  top: 24px;
+  left: 135px;
+}
+
+.container .helicopter .helicopter-body .helicopter-foot1 {
+  width: 5px;
+  height: 15px;
+  background-color: yellow;
+  position: absolute;
+  bottom: -12px;
+  left: 24px;
+}
+
+.container .helicopter .helicopter-body .helicopter-foot2 {
+  width: 5px;
+  height: 15px;
+  background-color: yellow;
+  position: absolute;
+  bottom: -12px;
+  right: 24px;
+}
+
+.container .helicopter .helicopter-body .helicopter-foot-end {
+  width: 50px;
+  height: 5px;
+  background-color: yellow;
+  position: absolute;
+  bottom: -15px;
+  left: 9px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+.container .helicopter .helicopter-body .h-window {
+  width: 30px;
+  height: 20px;
+  border-radius: 40px;
+  background-color: #00aeff;
+  position: absolute;
+  top: 8px;
+  left: 2px;
+}
+
+.container .button-zone {
+  position: absolute;
+  right: 15px;
+  top: 50px;
+}
+
+.container .home-contain {
+  width: 400px;
+  height: 400px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  position: relative;
+}
+
+.container .home-contain .sol-divar {
+  width: 10px;
+  height: 70%;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  background-color: #6ca187;
+}
+
+.container .home-contain .sag-divar {
+  width: 10px;
+  height: 70%;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  background-color: #6ca187;
+}
+
+.container .home-contain .arxa-sol {
+  width: 100px;
+  height: 10px;
+  background-color: #6ca187;
+  position: absolute;
+  top: 30%;
+  left: 0;
+}
+
+.container .home-contain .arxa-sag {
+  width: 100px;
+  height: 10px;
+  background-color: #6ca187;
+  position: absolute;
+  top: 30%;
+  right: 0;
+}
+
+.container .home-contain .on-sol {
+  position: absolute;
+  width: 150px;
+  height: 10px;
+  background-color: #6ca187;
+  bottom: 0;
+  left: 0;
+}
+
+.container .home-contain .on-sag {
+  position: absolute;
+  width: 150px;
+  height: 10px;
+  background-color: #6ca187;
+  bottom: 0;
+  right: 0;
+}
+
+.container .home-contain .hasar {
+  position: absolute;
+  width: 102px;
+  height: 30px;
+  background-color: #2d6955;
+  bottom: 0;
+  left: 37%;
+  -webkit-transition: 2s !important;
+  transition: 2s !important;
+}
+
+.container .home-contain .home-body {
+  width: 200px;
+  height: 200px;
+  background-color: gray;
+  position: relative;
+}
+
+.container .home-contain .home-body .home-dam {
+  -webkit-clip-path: polygon(49% 36%, 0% 100%, 100% 100%);
+          clip-path: polygon(49% 36%, 0% 100%, 100% 100%);
+  width: 200px;
+  height: 200px;
+  background-color: #2e2c2c;
+  position: absolute;
+  top: -199px;
+}
+
+.container .home-contain .home-body .window {
+  width: 50px;
+  height: 50px;
+  background-color: #01796F;
+}
+
+.container .home-contain .home-body .window-1 {
+  position: absolute;
+  right: 20px;
+  top: 50px;
+}
+
+.container .home-contain .home-body .window-2 {
+  position: absolute;
+  left: 20px;
+  top: 50px;
+}
+
+.container .home-contain .home-body .door {
+  width: 40px;
+  height: 60px;
+  background-color: peru;
+  position: absolute;
+  bottom: 0;
+  left: 80px;
+}
+
+.container .car {
+  position: absolute;
+  bottom: 100px;
+  left: 200px;
+}
+
+.container .car .car-body {
+  width: 100px;
+  height: 25px;
+  background-color: red;
+  border-top-left-radius: 262px;
+  border-top-right-radius: 262px;
+  border-bottom-left-radius: 14px;
+  border-bottom-right-radius: 14px;
+  position: relative;
+}
+
+.container .car .car-body .car-top {
+  position: absolute;
+  width: 40px;
+  height: 30px;
+  background-color: red;
+  border-top-left-radius: 311px;
+  border-top-right-radius: 556px;
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+  top: -15px;
+  left: 15px;
+}
+
+.container .car .car-body .car-teker {
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  background-color: #2e2c2c;
+}
+
+.container .car .car-body .teker1 {
+  position: absolute;
+  bottom: -16px;
+  left: 5px;
+}
+
+.container .car .car-body .teker2 {
+  position: absolute;
+  bottom: -16px;
+  right: 5px;
+}
+
+.container #moon {
+  position: absolute;
+  top: 60px;
+  left: 400px;
+  -webkit-transition: 3s;
+  transition: 3s;
+}
+
+.container #moon i {
+  font-size: 100px;
+  color: #F4F6F0;
+}
+
+.container #sun {
+  position: absolute;
+  top: 60px;
+  right: 400px;
+  -webkit-transition: 3s;
+  transition: 3s;
+  -webkit-transform: translateX(700px);
+          transform: translateX(700px);
+}
+
+.container #sun i {
+  font-size: 100px;
+  color: yellow;
+}
+
+.container #tree {
+  position: absolute;
+  top: 300px;
+  left: 200px;
+}
+
+.container #tree i {
+  font-size: 50px;
+  margin-left: 10px;
+  color: green;
+}
+
+.container #tree1 {
+  position: absolute;
+  top: 400px;
+  left: 200px;
+}
+
+.container #tree1 i {
+  font-size: 50px;
+  margin-left: 10px;
+  color: green;
+}
+
+.container #tree2 {
+  position: absolute;
+  top: 500px;
+  left: 200px;
+}
+
+.container #tree2 i {
+  font-size: 50px;
+  margin-left: 10px;
+  color: green;
+}
+
+.container #tree3 {
+  position: absolute;
+  top: 300px;
+  right: 200px;
+}
+
+.container #tree3 i {
+  font-size: 50px;
+  margin-left: 10px;
+  color: green;
+}
+
+.container #tree4 {
+  position: absolute;
+  top: 400px;
+  right: 200px;
+}
+
+.container #tree4 i {
+  font-size: 50px;
+  margin-left: 10px;
+  color: green;
+}
+
+.container #tree5 {
+  position: absolute;
+  top: 500px;
+  right: 200px;
+}
+
+.container #tree5 i {
+  font-size: 50px;
+  margin-left: 10px;
+  color: green;
+}
+
+.container #cloud {
+  position: absolute;
+  top: 0;
+  left: 200px;
+}
+
+.container #cloud i {
+  font-size: 100px;
+  color: #4f666a;
+  margin-right: 300px;
+}
+
+.container #flight {
+  position: absolute;
+  top: 100px;
+  left: -200px;
+  -webkit-transform: translateX(-100px);
+          transform: translateX(-100px);
+  -webkit-animation: flightt 10s linear infinite;
+          animation: flightt 10s linear infinite;
+}
+
+.container #flight i {
+  font-size: 30px;
+  color: #81b5c5;
+}
+
+.has {
+  -webkit-transform: translateX(100px) !important;
+          transform: translateX(100px) !important;
+  -webkit-transition: 2s !important;
+  transition: 2s !important;
+}
+
+@-webkit-keyframes rafet {
+  0% {
+    -webkit-transform: translateX(0px);
+            transform: translateX(0px);
+  }
+  100% {
+    -webkit-transform: translateX(520px);
+            transform: translateX(520px);
+  }
+}
+
+@keyframes rafet {
+  0% {
+    -webkit-transform: translateX(0px);
+            transform: translateX(0px);
+  }
+  100% {
+    -webkit-transform: translateX(520px);
+            transform: translateX(520px);
+  }
+}
+
+.carr {
+  -webkit-animation: rafet 1s forwards;
+          animation: rafet 1s forwards;
+}
+
+.win {
+  background-color: yellow !important;
+}
+
+.moon-go {
+  -webkit-transform: translateX(-700px);
+          transform: translateX(-700px);
+  opacity: 0;
+  -webkit-transition: 3s;
+  transition: 3s;
+}
+
+.sun-go {
+  -webkit-transform: translateX(0px) !important;
+          transform: translateX(0px) !important;
+  -webkit-transition: 3s;
+  transition: 3s;
+}
+
+.white {
+  background-color: #c8c8c8 !important;
+}
+
+@-webkit-keyframes flightt {
+  0% {
+    -webkit-transform: translateX(0px);
+            transform: translateX(0px);
+  }
+  100% {
+    -webkit-transform: translateX(5900px);
+            transform: translateX(5900px);
+  }
+}
+
+@keyframes flightt {
+  0% {
+    -webkit-transform: translateX(0px);
+            transform: translateX(0px);
+  }
+  100% {
+    -webkit-transform: translateX(5900px);
+            transform: translateX(5900px);
+  }
+}
+
+@-webkit-keyframes per {
+  0% {
+    -webkit-transform: rotateY(0deg);
+            transform: rotateY(0deg);
+  }
+  50% {
+    -webkit-transform: rotateY(360000000deg);
+            transform: rotateY(360000000deg);
+  }
+  100% {
+    -webkit-transform: rotateY(0deg);
+            transform: rotateY(0deg);
+  }
+}
+
+@keyframes per {
+  0% {
+    -webkit-transform: rotateY(0deg);
+            transform: rotateY(0deg);
+  }
+  50% {
+    -webkit-transform: rotateY(360000000deg);
+            transform: rotateY(360000000deg);
+  }
+  100% {
+    -webkit-transform: rotateY(0deg);
+            transform: rotateY(0deg);
+  }
+}
+
+@-webkit-keyframes perend {
+  0% {
+    -webkit-transform: rotateZ(0deg);
+            transform: rotateZ(0deg);
+  }
+  50% {
+    -webkit-transform: rotateZ(360000000deg);
+            transform: rotateZ(360000000deg);
+  }
+  100% {
+    -webkit-transform: rotateZ(0deg);
+            transform: rotateZ(0deg);
+  }
+}
+
+@keyframes perend {
+  0% {
+    -webkit-transform: rotateZ(0deg);
+            transform: rotateZ(0deg);
+  }
+  50% {
+    -webkit-transform: rotateZ(360000000deg);
+            transform: rotateZ(360000000deg);
+  }
+  100% {
+    -webkit-transform: rotateZ(0deg);
+            transform: rotateZ(0deg);
+  }
+}
+
+@-webkit-keyframes helicopter-go {
+  0% {
+    -webkit-transform: translateX(0px);
+            transform: translateX(0px);
+  }
+  100% {
+    -webkit-transform: translateX(-2000px);
+            transform: translateX(-2000px);
+  }
+}
+
+@keyframes helicopter-go {
+  0% {
+    -webkit-transform: translateX(0px);
+            transform: translateX(0px);
+  }
+  100% {
+    -webkit-transform: translateX(-2000px);
+            transform: translateX(-2000px);
+  }
+}
+
+.h-anim1 {
+  -webkit-animation: per 100s alternate infinite !important;
+          animation: per 100s alternate infinite !important;
+}
+
+.h-anim2 {
+  -webkit-animation: perend 100s linear infinite !important;
+          animation: perend 100s linear infinite !important;
+  -webkit-animation-delay: 1s !important;
+          animation-delay: 1s !important;
+}
+/*# sourceMappingURL=style.css.map */
